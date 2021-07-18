@@ -22,6 +22,10 @@
 	.column {
 	  flex: 50%;
 	  max-width: 50%;
+	  
+	}
+	.column:hover{
+		max-width: 60%;
 	}
   }
   
