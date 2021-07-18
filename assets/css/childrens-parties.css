@@ -3390,15 +3390,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-image: url("../../images/childrens-banner.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: #ffffff;
 		padding: 8rem 4rem 6rem 4rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
 		align-items: center;
 		display: -moz-flex;
 		display: -webkit-flex;
