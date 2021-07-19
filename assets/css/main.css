@@ -3393,39 +3393,39 @@ input, select, textarea {
 
 /* Intro */
 
-	#intro {
-		background-image: url("../../images/intro.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-justify-content: -moz-flex-end;
-		-webkit-justify-content: -webkit-flex-end;
-		-ms-justify-content: -ms-flex-end;
-		justify-content: flex-end;
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
-		position: relative;
-		cursor: default;
-		text-align: center;
-		z-index: 1;
-		min-height: 100vh;
-	}
+#intro {
+	background-image: url("../../images/intro.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	padding: 8rem 4rem 6rem 4rem ;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-moz-justify-content: -moz-flex-end;
+	-webkit-justify-content: -webkit-flex-end;
+	-ms-justify-content: -ms-flex-end;
+	justify-content: flex-end;
+	-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+	-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+	-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+	transition: opacity 1s ease, transform 1s ease;
+	position: relative;
+	cursor: default;
+	text-align: center;
+	z-index: 1;
+	min-height: 100vh;
+}
 
 	#intro input, #intro select, #intro textarea {
 		color: #ffffff;
@@ -3502,23 +3502,22 @@ input, select, textarea {
 				background-color: #f4d18c;
 			}
 
+	#intro h1 {
+		font-size: 5rem;
+		font-family: 'Playfair Display', Georgia, serif;
+		line-height: 1;
+	}
 
-		#intro h1 {
-			font-size: 5rem;
-			font-family: 'Playfair Display', Georgia, serif;
-			line-height: 1;
-		}
+	#intro p {
+		font-size: 1.25rem;
+		font-style: italic;
+		margin-top: -0.25rem;
+		text-align: center;
+	}
 
-		#intro p {
-			font-size: 1.25rem;
-			font-style: italic;
-			margin-top: -0.25rem;
-			text-align: center;
-		}
-
-		#intro + #header {
-			margin-top: -20rem;
-		}
+	#intro + #header {
+		margin-top: -20rem;
+	}
 
 		#intro + #header .logo {
 			-moz-transform: translateY(2rem);
@@ -3570,63 +3569,63 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	body.is-preload #intro {
+		-moz-transform: translateY(2rem);
+		-webkit-transform: translateY(2rem);
+		-ms-transform: translateY(2rem);
+		transform: translateY(2rem);
+		opacity: 0;
+	}
 
-		body.is-preload #intro {
-			-moz-transform: translateY(2rem);
-			-webkit-transform: translateY(2rem);
-			-ms-transform: translateY(2rem);
-			transform: translateY(2rem);
+		body.is-preload #intro:not(.hidden) + #header + #nav {
+			-moz-transform: translateY(4rem);
+			-webkit-transform: translateY(4rem);
+			-ms-transform: translateY(4rem);
+			transform: translateY(4rem);
 			opacity: 0;
 		}
 
-			body.is-preload #intro:not(.hidden) + #header + #nav {
-				-moz-transform: translateY(4rem);
-				-webkit-transform: translateY(4rem);
-				-ms-transform: translateY(4rem);
-				transform: translateY(4rem);
-				opacity: 0;
-			}
+	@media screen and (max-width: 980px) {
 
-		@media screen and (max-width: 980px) {
-
-			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
-			}
-
-				#intro p br {
-					display: none;
-				}
-
-				#intro + #header {
-					margin-top: -14rem;
-				}
-
+		#intro {
+			padding: 4rem 4rem 2rem 4rem ;
+			min-height: 90vh;
 		}
 
-		@media screen and (max-width: 736px) {
-
-			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+			#intro p br {
+				display: none;
 			}
 
-				#intro h1 {
-					font-size: 3.25rem;
-					line-height: 1.1;
-					margin-bottom: 1rem;
-				}
+			#intro + #header {
+				margin-top: -14rem;
+			}
 
-				#intro p {
-					font-size: 1rem;
-					margin-top: 0rem;
-				}
+	}
 
-				#intro .actions {
-					display: none;
-				}
+	@media screen and (max-width: 736px) {
 
+		#intro {
+			padding: 3rem 2rem 1rem 2rem ;
+			min-height: 80vh;
 		}
+
+			#intro h1 {
+				font-size: 3.25rem;
+				line-height: 1.1;
+				margin-bottom: 1rem;
+			}
+
+			#intro p {
+				font-size: 1rem;
+				margin-top: 0rem;
+			}
+
+			#intro .actions {
+				display: none;
+			}
+
+	}
+
 
 /* Header */
 
@@ -3696,26 +3695,45 @@ input, select, textarea {
 	}
 
 
-		#header .logo {
-			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
-			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
-			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
-			pointer-events: auto;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 2.25rem;
-			font-weight: 900;
-			letter-spacing: 0.075em;
-			line-height: 1;
-			padding: 1rem 1.75rem;
-			text-transform: uppercase;
-			visibility: visible;
+	#header .logo {
+		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
+		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
+		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
+		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+		pointer-events: auto;
+		font-family: "Brush Script MT",cursive, serif;
+		font-size: 5.5rem;
+		font-weight: 900;
+		letter-spacing: 0.075em;
+		line-height: 1;
+		padding: 1rem 2rem;
+		border-width: 0.5rem;
+		border-bottom: solid;
+		visibility: visible;
+	}
+
+	#header .logot {
+		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
+		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
+		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
+		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+		pointer-events: auto;
+		font-family: "Times New Roman", serif;
+		font-size: 2rem;
+		font-weight: 300;
+		letter-spacing: 0.075em;
+		padding: 1rem 2rem;
+		line-height: 1;
+		visibility: visible;
+		box-shadow: none;
+		border-bottom: none;
+	}
+
+		#header .logo:hover {
+			border-color: #f4d18c !important;
+			color: #f4d18c !important;
 		}
 
-			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
-			}
 
 		@media screen and (max-width: 980px) {
 
@@ -3800,7 +3818,7 @@ input, select, textarea {
 .dropdown-content a {
     color: black;
     background-color: #f7e7ce;
-    padding: 12px 16px;
+    
     text-decoration: none;
     display: block;
   }
@@ -3808,7 +3826,7 @@ input, select, textarea {
   /* Change color of dropdown links on hover */
  .dropdown-content a:hover {
      background-color: #f1f1f1;
-     margin-left: 11.4rem;
+    
      border-bottom-color: transparent;
 }
   
@@ -3916,7 +3934,7 @@ input, select, textarea {
 .dropdown-content a {
     color: #f4d18c;
     background-color: #ffffff;
-    padding: 12px 16px;
+   
     text-decoration: none;
     display: block;
     font-family: 'Moroco',serif;
@@ -3967,7 +3985,7 @@ input, select, textarea {
 
     #nav ul.links li {
         display: block;
-        padding-left: 0;
+       
     }
 
         #nav ul.links li a {
@@ -3978,7 +3996,7 @@ input, select, textarea {
             display: block;
             font-size: 1.3rem;
             outline: none;
-            padding: 0 2rem;
+           
             font-family: 'Droid Serif', Georgia, Times, serif;
         }
 
