@@ -4924,4 +4924,39 @@ z-index: 2;
 			border-radius: 0;
 		}
 	}
+	div.gallery {
+		border: 1px solid #ccc;
+	  }
+	  
+	  div.gallery:hover {
+		border: 1px solid #777;
+	  }
+	  
+	  div.gallery img {
+		width: 100%;
+		height: auto;
+	  }
+	  
+	  div.desc {
+		padding: 15px;
+		text-align: center;
+	  }
+	  
+	 
+	  
+	  * {
+		box-sizing: border-box;
+	  }
+	  
+	  .column {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+	  }
+	  
+	  /* Clearfix (clear floats) */
+	  .row::after {
+		content: "";
+		clear: both;
+		display: table;
 	
