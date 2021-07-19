@@ -1,36 +1,38 @@
-@import url(font-awesome.min.css);
-
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Wrapper */
-
-	#wrapper {
-		background-color: #212931;
-		background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-		background-size: auto,								auto,														100% auto;
-		background-position: center,								center,														top center;
-		background-repeat: repeat,								no-repeat,													no-repeat;
-		background-attachment: fixed,								fixed,														fixed;
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+	flex: 25%;
+	/* max-width: 25%; */
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+	.column {
+	  flex: 50%;
+	  max-width: 50%;
+	  
 	}
-
-		#wrapper.fade-in:before {
-			display: none;
-		}
-
-/* Intro */
-
-	body.is-preload #intro {
-		opacity: 1;
+	.column:hover{
+		max-width: 60%;
 	}
-
-		body.is-preload #intro:not(.hidden) + #header + #nav {
-			-moz-transform: none;
-			-webkit-transform: none;
-			-ms-transform: none;
-			transform: none;
-			opacity: 1;
-		}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
