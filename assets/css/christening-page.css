@@ -4963,3 +4963,12 @@ z-index: 2;
 	  p{
 		text-indent: 50px;
 	}
+	img{
+		border-radius: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+
+	}
