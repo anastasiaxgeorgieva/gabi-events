@@ -5059,4 +5059,31 @@ z-index: 2;
 			border-radius: 0;
 		}
 	}
+	img {
+		vertical-align: middle;
+	}
+	.column {
+		float: left;
+		width: 50%;
+	  }
+	  
+	  /* Clear floats after the columns */
+	  .row:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+
+	  p{
+		text-indent: 50px;
+	  }
+
+	  img{
+		border-radius: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		drop-shadow (16px 16px 10px black);
+		margin-bottom: 15px;
+	}
 	
