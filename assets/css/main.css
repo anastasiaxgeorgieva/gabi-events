@@ -281,7 +281,7 @@ input, select, textarea {
 
 	p {
 		text-align: center;
-		margin: 0 0 2rem 0;
+		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -5113,3 +5113,45 @@ z-index: 2;
 	img{
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
+	p{
+		text-indent: 50px;
+	}
+	.chr{
+		border-radius: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	* {
+		box-sizing: border-box;
+	  }
+	  
+	  .columnChr {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+	  }
+	  
+	  .rowChr::after {
+		content: "";
+		clear: both;
+		display: table;
+	  }
+	  .columnBaby {
+		float: left;
+		width: 50%;
+	  }
+	  
+	  /* Clear floats after the columns */
+	  .rowBaby:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+	  .shortIntro{
+		text-indent: 0px;
+		text-align: center;
+	  }
