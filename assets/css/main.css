@@ -42,6 +42,8 @@ body {
   margin: auto;
   top: 8px;
   left: 16px;
+  width: 100%;
+
 }
 
 /* Hide the images by default */
@@ -66,7 +68,7 @@ body {
 }
 
 .prev{
-	left:2;
+	left:0;
 	border-radius: 3px 0 0 3px;
 }
 
@@ -4101,8 +4103,66 @@ input, select, textarea {
     border-bottom-color: #ffffff;
 }
 
-.dropbtn {
+/* --------nav bar------------ */
 
+.navbar {
+	overflow: hidden;
+	background-color: #f7e7ce;
+	color:#f4d18c;
+	width: 76%;
+	margin: auto;
+  }
+  
+  .navbar a {
+	float: left;
+	font-size: 19px;
+	color: white;
+	text-align: center;
+	padding: 10px 8px;
+	text-decoration: none;
+  }
+  
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 18px 14px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #f1f1f1;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+/* -------------------- */
+
+.dropbtn {
     font-family: 'Droid Serif', Georgia, Times, serif;
     border: none;
     outline: none;
@@ -4137,12 +4197,7 @@ input, select, textarea {
     -ms-flex-shrink: 1;
     flex-shrink: 1;
   }
-  
-  /* The container <div> - needed to position the dropdown content */
-.dropdown {
-    display: block;
-  }
-  
+ 
   /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
@@ -4150,7 +4205,6 @@ input, select, textarea {
     background-color: rgba(255, 255, 255, 0.175);
     min-width: 150px;
     z-index: 5;
-    margin-left: 12rem;
   }
   
   /* Links inside the dropdown */
@@ -5446,6 +5500,7 @@ z-index: 2;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
+	padding: auto;
   }
   
   /* Add a hover effect if you want */
@@ -5459,6 +5514,7 @@ z-index: 2;
   .fa-facebook {
 	background: #f1d2c4;
 	color: white;
+	
   }
 
   .fa-instagram {
@@ -5466,14 +5522,7 @@ z-index: 2;
 	color: white;
   }
 
-  .fa {
-	padding: 20px;
-	font-size: 20px;
-	width: 40px;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 50%;
-  }
+
   .columnBday {
 	float: left;
 	width: 50%;
