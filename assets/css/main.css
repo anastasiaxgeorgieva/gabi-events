@@ -5466,4 +5466,35 @@ z-index: 2;
 	color: white;
   }
 
-
+  .fa {
+	padding: 20px;
+	font-size: 20px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+  }
+  .columnBday {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .rowBday:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  .rowBdayGallery {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 2px;
+  }
+  
+ .bdayGallery{
+	width: "550";
+	height:"450";
+ }
+ .bdayGallery2{
+	 margin-bottom: 20px;
+ }

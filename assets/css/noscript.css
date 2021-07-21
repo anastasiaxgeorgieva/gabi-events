@@ -33,3 +33,37 @@
 	  max-width: 100%;
 	}
   }
+
+  .rowBday {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  /* Create four equal columns that sits next to each other */
+  .columnBdayGallery {
+	flex: 50%;
+	/* max-width: 25%; */
+	padding: 0 4px;
+  }
+  
+  .columnBdayGallery img {
+	vertical-align: middle;
+	width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 400px) {
+	.columnBdayGallery {
+	  flex: 50%;
+	  max-width: 50%;	  
+	}
+
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 300px) {
+	.columnBdayGallery {
+	  flex: 50%;
+	  max-width: 100%;
+	}
+  }
