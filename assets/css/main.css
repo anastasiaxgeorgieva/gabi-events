@@ -4072,6 +4072,7 @@ input, select, textarea {
 #nav a {
     color: #ffffff;
     border-bottom-color: rgba(255, 255, 255, 0.5);
+	margin-left: 20rem;
 }
 
     #nav a:hover {
@@ -4109,7 +4110,7 @@ input, select, textarea {
     cursor: pointer;
 	margin-top: 4rem;
 	top: 0;
-	margin-left: 33rem;
+	margin-left: 12rem;
 	left: 0;
     height: 4rem;
     max-width: 83rem;
@@ -4149,7 +4150,7 @@ input, select, textarea {
     background-color: rgba(255, 255, 255, 0.175);
     min-width: 150px;
     z-index: 5;
-    margin-left: 32.5rem;
+    margin-left: 12rem;
   }
   
   /* Links inside the dropdown */
@@ -5353,3 +5354,40 @@ z-index: 2;
 		text-align: center;
 		
 	  }
+
+	  /* Style all font awesome icons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+
+  .fa {
+	padding: 20px;
+	font-size: 20px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+  }
