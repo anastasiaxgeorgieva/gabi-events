@@ -4445,6 +4445,38 @@ z-index: 2;
 			#main > .post.featured {
 				text-align: center;
 			}
+			.container .post.featured{
+				font-family: "Merriweather", Georgia, serif;
+				font-style: italic;
+				font-size: 1.2rem;
+				text-align: center;
+			  }
+
+			  .container .text1{
+				text-align: center; 
+				font-size: 1rem;
+			  }
+
+			  .container .text2 {
+				 text-align: center;
+			  }
+
+			  .container .text3{
+				  text-align: center;
+			  }
+
+			  .container .text4{
+				  text-align: center;
+				  margin-top: 7rem ;
+				  font-weight: bold;
+			  }
+			  .container ul{
+				margin-top: 5rem ;
+				font-family: "Merriweather", Georgia, serif;
+				font-size: 2rem;
+				text-align: center;
+				color: #f4d18c;
+			  }
 
 			@media screen and (max-width: 1280px) {
 
