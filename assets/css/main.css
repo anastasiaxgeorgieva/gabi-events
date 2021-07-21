@@ -4167,12 +4167,14 @@ input, select, textarea {
   /* Change color of dropdown links on hover */
  .dropdown-content a:hover {
      background-color: #f1f1f1;
+	 color:#f4d18c;
      border-bottom-color: transparent;
 }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+	color:#f4d18c;
 	
   }
   
@@ -4236,7 +4238,7 @@ input, select, textarea {
         }
 
             #nav ul.links li.active a {
-                color: #ffffff;
+				color:#f4d18c;
             }
 
                 #nav ul.links li.active a:hover {
