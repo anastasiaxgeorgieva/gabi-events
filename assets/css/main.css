@@ -4263,7 +4263,87 @@ position: relative;
 width: calc(100% - 4rem);
 max-width: 72rem;
 z-index: 2;
+}#nav ul.links {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-left: 2.3rem;
+    text-transform: uppercase;
 }
+
+    #nav ul.links li {
+        display: block;
+        padding-left: 0;
+        margin-left: -5.7rem;
+    }
+
+
+        #nav ul.links li a {
+            -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+            -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+            -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+            display: block;
+            font-size: 1.3rem;
+            outline: none;
+            padding: 0 2rem;
+            font-family: 'Droid Serif', Georgia, Times, serif;
+        }
+
+            #nav ul.links li a:hover {
+                color: #f4d18c !important;
+                background-color: #ffffff;
+            }
+
+        #nav ul.links li.active {
+            background: transparent;
+        }
+
+            #nav ul.links li.active a {
+                color: #ffffff;
+            }
+
+                #nav ul.links li.active a:hover {
+                    color: #f4d18c !important;
+                }
+
+#nav {
+color: #ffffff;
+display: -moz-flex;
+display: -webkit-flex;
+display: -ms-flex;
+display: flex;
+-moz-transition: -moz-transform 1s ease, opacity 1s ease;
+-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
+-ms-transition: -ms-transform 1s ease, opacity 1s ease;
+transition: transform 1s ease, opacity 1s ease;
+background: #f7e7ce;
+height: 4rem;
+line-height: 4rem;
+margin: -4rem auto 0 auto;
+overflow: hidden;
+padding: 0 2rem 0 0;
+position: relative;
+width: calc(100% - 4rem);
+max-width: 72rem;
+z-index: 2;
+}
+
 
 
 /* Main */
@@ -5355,13 +5435,15 @@ z-index: 2;
 		
 	  }
 
-	  /* Style all font awesome icons */
+	 
 .fa {
 	padding: 20px;
 	font-size: 30px;
-	width: 50px;
+	width: 30px;
+	height: 30px;
 	text-align: center;
 	text-decoration: none;
+	border-radius: 50%;
   }
   
   /* Add a hover effect if you want */
@@ -5373,13 +5455,12 @@ z-index: 2;
   
   /* Facebook */
   .fa-facebook {
-	background: #3B5998;
+	background: #f1d2c4;
 	color: white;
   }
-  
-  /* Twitter */
-  .fa-twitter {
-	background: #55ACEE;
+
+  .fa-instagram {
+	background: #f1d2c4;
 	color: white;
   }
 
