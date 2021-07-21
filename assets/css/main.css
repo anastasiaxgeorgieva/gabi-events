@@ -52,7 +52,7 @@ body {
 /* Next & previous buttons */
 .prev, .next {
 	cursor: pointer;
-	position: absolute;
+	position:absolute;
 	top: 50%;
 	width: auto;
 	padding: 16px;
@@ -66,7 +66,7 @@ body {
 }
 
 .prev{
-	left:0;
+	left:2;
 	border-radius: 3px 0 0 3px;
 }
 
@@ -4174,7 +4174,7 @@ input, select, textarea {
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
-	color:#f4d18c;
+	 color:#f4d18c;
 	
   }
   
@@ -4238,7 +4238,7 @@ input, select, textarea {
         }
 
             #nav ul.links li.active a {
-				color:#f4d18c;
+                color: #ffffff;
             }
 
                 #nav ul.links li.active a:hover {
@@ -5466,35 +5466,4 @@ z-index: 2;
 	color: white;
   }
 
-  .fa {
-	padding: 20px;
-	font-size: 20px;
-	width: 40px;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 50%;
-  }
-  .columnBday {
-	float: left;
-	width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  .rowBday:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  .rowBdayGallery {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 2px;
-  }
-  
- .bdayGallery{
-	width: "550";
-	height:"450";
- }
- .bdayGallery2{
-	 margin-bottom: 20px;
- }
+
