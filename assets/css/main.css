@@ -5466,4 +5466,65 @@ z-index: 2;
 	color: white;
   }
 
-
+  .fa {
+	padding: 20px;
+	font-size: 20px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+  }
+  .columnBday {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .rowBday:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  .rowBdayGallery {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 2px;
+  }
+  
+ .bdayGallery{
+	width: "650";
+	height:"550";
+ }
+ .bdayGallery2{
+	width: "550";
+	height:"700";
+ }
+ .dropdown2 {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content2 {
+	display: none;
+	position: absolute;
+	right:10px;
+	top:20px;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+	display: inline-block;
+  }
+  
+  .desc {
+	padding: 15px;
+	text-align: center;
+  }
+  img {
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ 
