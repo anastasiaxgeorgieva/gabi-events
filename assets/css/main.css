@@ -4452,6 +4452,44 @@ z-index: 2;
 				color: #f4d18c;
 			  }
 
+
+			  .container .kat{
+                margin-top: 5rem ;
+                font-family: "Merriweather", Georgia, serif;
+                font-size: 1.3rem;
+                text-align: left;
+                color: #f4d18c;
+              }
+
+              .container .bday1{
+                font-family: "Merriweather", Georgia, serif;
+                font-style: italic;
+                font-size: 1.3rem;
+                text-align: center;
+                color: #f4d18c;
+                margin-top: 1.3rem;
+              }
+
+              .container .bday2 {
+                text-align: center;
+                font-size: 1.5rem;
+                font-family: 'Verdana', serif;
+                font-weight: 500;
+                margin-top: 4rem;
+              }
+
+              .container .bday3{
+                  text-align: center;
+                  font-size: 1.1rem;
+              }
+
+              .container .bday4{
+                font-size: 1.3rem;
+                margin-top: 1.3rem;
+                font-family: 'Verdana', serif;
+                font-weight: 550;
+            }
+
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
