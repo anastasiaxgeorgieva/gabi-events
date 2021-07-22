@@ -4032,14 +4032,11 @@ input, select, textarea {
 		}
 /* Nav */
 
-
 /* Style The Dropdown Button */
 
-
-  #nav ul.divided li {
+#nav ul.divided li {
     border-top-color: #ffffff;
 }
-
 
 #nav input, #nav select, #nav textarea {
     color: #ffffff;
@@ -4048,7 +4045,7 @@ input, select, textarea {
 #nav a {
     color: #ffffff;
     border-bottom-color: rgba(255, 255, 255, 0.5);
-	margin-left: 20rem;
+    margin-left: 20rem;
 }
 
     #nav a:hover {
@@ -4080,72 +4077,74 @@ input, select, textarea {
 /* --------nav bar------------ */
 
 .navbar {
-	overflow: hidden;
-	background-color: #f7e7ce;
-	color:#f4d18c;
-	width: 76%;
-	margin: auto;
+    overflow: hidden;
+    background-color: #f7e7ce;
+    color:#f4d18c;
+    width: 76%;
+    margin: auto;
   }
   
   .navbar a {
-	float: left;
-	font-size: 19px;
-	color: white;
-	text-align: center;
-	padding: 10px 8px;
-	text-decoration: none;
+    float: left;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding: 10px 8px;
+    text-decoration: none;
+    font-family: 'Droid Serif', Georgia, Times, serif;
   }
   
   .dropdown {
-	float: left;
-	overflow: hidden;
+    float: left;
+    overflow: hidden;
   }
   
-  .dropdown .dropbtn {
-	font-size: 16px;  
-	border: none;
-	outline: none;
-	color: white;
-	padding: 18px 14px;
-	background-color: inherit;
-	font-family: inherit;
-	margin: 0;
+    .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    font-weight: normal;
+    padding: 15px 15px;
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    margin: 0;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-	background-color: #f1f1f1;
+    background-color: transparent;
   }
   
   .dropdown-content a {
-	float: none;
-	color: black;
-	
-	text-decoration: none;
-	display: block;
-	text-align: left;
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
   }
   
   .dropdown-content a:hover {
-	background-color: #ddd;
+    background-color: #ffffff;
 
   }
   
   .dropdown:hover .dropdown-content {
-	display: block;
+    display: block;
   }
 
+  
 /* -------------------- */
 
-.dropbtn {
+/*.dropbtn {
     font-family: 'Droid Serif', Georgia, Times, serif;
     border: none;
     outline: none;
     box-shadow: none;
     cursor: pointer;
-	margin-top: 4rem;
-	top: 0;
-	margin-left: 12rem;
-	left: 0;
+    margin-top: 4rem;
+    top: 0;
+    margin-left: 12rem;
+    left: 0;
     height: 4rem;
     max-width: 83rem;
     z-index: 3;
@@ -4170,14 +4169,14 @@ input, select, textarea {
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-  }
+  } */
  
   /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.175);
-    min-width: 150px;
+    min-width: 100px;
     z-index: 5;
   }
   
@@ -4195,26 +4194,26 @@ input, select, textarea {
   /* Change color of dropdown links on hover */
  .dropdown-content a:hover {
      background-color: #f1f1f1;
-	 color:#f4d18c;
+     color:#f4d18c;
      border-bottom-color: transparent;
 }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
-	 color:#f4d18c;
-	
+     color:#f4d18c;
+    
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-    background: #ffffff;
+    background: transparent;
     color:  #f4d18c;
     box-shadow: none;
   }
 
   .dropbtn .active{
-	  color: #f4d18c;
+      color: #f4d18c;
   }
 
 #nav ul.links {
@@ -4253,12 +4252,12 @@ input, select, textarea {
             font-size: 1.3rem;
             outline: none;
             padding: 0 2rem;
-			font-family: 'Droid Serif', Georgia, Times, serif;
+            font-family: 'Droid Serif', Georgia, Times, serif;
         }
 
             #nav ul.links li a:hover {
                 color: #f4d18c !important;
-				background-color: #ffffff;
+                background-color: #ffffff;
             }
 
         #nav ul.links li.active {
@@ -4322,7 +4321,6 @@ z-index: 2;
         margin-left: -5.7rem;
     }
 
-
         #nav ul.links li a {
             -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
             -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -4373,6 +4371,7 @@ width: calc(100% - 4rem);
 max-width: 72rem;
 z-index: 2;
 }
+
 
 
 
